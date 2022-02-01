@@ -17,7 +17,7 @@ AllowTcpForwarding no
 # Subsystem sftp /usr/lib/openssh/sftp-server
 Subsystem sftp internal-sftp
 ForceCommand internal-sftp
-ChrootDirectory %h
+# ChrootDirectory %h
 Port 31115
 
 # Enable this for more logs
