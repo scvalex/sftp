@@ -17,6 +17,7 @@ AllowTcpForwarding no
 Subsystem sftp internal-sftp
 ForceCommand internal-sftp
 ChrootDirectory %h
+IPQoS 0x00
 
 # Enable this for more logs
 LogLevel VERBOSE
