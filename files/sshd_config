@@ -21,4 +21,4 @@ ChrootDirectory %h
 Port 31115
 
 # Enable this for more logs
-LogLevel VERBOSE
+LogLevel DEBUG3
