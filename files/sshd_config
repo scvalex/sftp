@@ -21,4 +21,4 @@ ForceCommand internal-sftp
 Port 31115
 
 # Enable this for more logs
-LogLevel DEBUG3
+LogLevel VERBOSE

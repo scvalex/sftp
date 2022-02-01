@@ -92,7 +92,6 @@ fi
 
 if $startSshd; then
     log "Executing sshd"
-    ls -l /run
     log "Creating rundir"
     mkdir -p /run/sshd
     ls -l /run
