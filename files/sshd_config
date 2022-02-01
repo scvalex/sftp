@@ -14,9 +14,11 @@ X11Forwarding no
 AllowTcpForwarding no
 
 # Force sftp and chroot jail
-Subsystem sftp sftp-server
+# Subsystem sftp /usr/lib/openssh/sftp-server
+Subsystem sftp internal-sftp
 ForceCommand internal-sftp
 ChrootDirectory %h
+Port 31115
 
 # Enable this for more logs
 LogLevel VERBOSE
